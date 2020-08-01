@@ -1,0 +1,63 @@
+
+.body {
+    
+    background:#1c3643;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.terminos, .main {
+    width: 70%;
+    border:  1px solid #95ca3e;
+    border-radius: 15px;
+    color: black;
+    background: #f0f1ed;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.footer {
+    width: 15%;
+    border:  1px solid rgb(126, 122, 123);
+    border-radius: 15px;
+    color: black;
+    background:  #30cd2d;
+    position: relative;
+    left: 40%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 5px;
+    animation: move 3s infinite linear;
+}
+
+@keyframes move {
+    from {
+      margin-left: 20%;
+    }
+
+    to {
+      width: -5%;
+    }
+  }
+.footer_message {
+    text-align: center;
+}
+.button {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    left: 97.5%;
+    top: -5px;
+    background:#f0f1ed;
+
+}
